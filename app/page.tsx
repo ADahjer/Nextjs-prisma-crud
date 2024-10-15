@@ -7,8 +7,6 @@ import { useNotes } from "@/context/NoteContext";
 import { useEffect } from "react";
 
 export default function Home() {
-  // const notes = await loadNotes();
-
   const { notes, loadNotes } = useNotes();
 
   useEffect(() => {
